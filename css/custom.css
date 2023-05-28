@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "Rekford-Book";
+  src: url(font/Rekord-Book.woff2);
+  font-family: "apple";
+  src: url(/font/AppleGaramond-Bold.ttf);
+}
+body {
+  font-family: Rekford;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: apple;
+}
+
+h2 {
+  display: inline-block;
+  background-color: rgba(235, 130, 207, 0.1);
+  padding: 5px;
+}
+
+caption {
+  caption-side: top;
+  color: #000000;
+}
+
+.table-dark {
+  --bs-table-bg: rgba(142, 194, 226, 0.605);
+}
+
+.table-striped {
+  color: #15324a;
+}
+
+.text-white {
+  margin: auto;
+}
+
+h4 {
+  font-weight: lighter;
+}
+
+.jumbotron-fluid {
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.bg-cover {
+  background-size: cover !important;
+  border-bottom: solid 5px #04080c;
+}
+
+.jumbotron-fluid figure img:hover {
+  transform: scale(1.5);
+  transition: 0.3s ease-in-out;
+}
+
+.jumbotron-fluid:hover img {
+  transform: scale(1);
+}
+
+h1 {
+  color: #fff;
+}
+
+.navbar-brand,
+.nav-link {
+  font-size: 22px;
+}
+
+footer {
+  text-align: center;
+}
+
+.bg-dark {
+  background-color: rgba(245, 191, 220, 0.581) !important;
+  box-shadow: 0 2px 2px 0px #15324a;
+}
+
+.bi-star-fill {
+  color: #15324a;
+}
+
+.text-primary {
+  color: rgba(246, 187, 227, 0.821);
+}
+
+span {
+  position: relative;
+  display: block;
+}
+
+.nav-link,
+a:hover {
+  color: rgba(240, 151, 201, 0.8235294118);
+  will-change: transform;
+}
+
+.btn {
+  font-family: Rekford;
+  z-index: 3;
+}
+
+.btn-outline-primary {
+  color: #fff;
+  border-color: #fff;
+  margin-top: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btn-outline-primary:hover {
+  background-color: rgba(240, 151, 201, 0.8235294118);
+  border-color: #fff;
+  transition: 0.1s linear;
+  will-change: transform;
+}
+
+.btn-primary {
+  padding: 0.77em;
+  background-color: #15324a;
+  border: solid 1px rgba(240, 151, 201, 0.6823529412);
+}
+
+.btn-primary:hover {
+  background-color: hsla(329, 84%, 82%, 0.662);
+  transition: ease-in-out 0.1s;
+  will-change: transform;
+}
+
+a,
+.nav-link {
+  color: #fff;
+}
+
+th {
+  font-family: Rekford;
+  font-weight: normal;
+}
+
+.form-check-input:checked {
+  background-color: #2d6796;
+}
+
+.text-foot {
+  font-style: italic;
+  color: #15324a;
+  font-family: Rekford;
+  font-weight: light;
+  font-size: 100%;
+  padding: 10px;
+}
+
+section {
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+.axolotl {
+  display: relative;
+  max-width: 300px;
+  opacity: 0.5;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.axolotl:hover {
+  transition: 0.4s linear;
+  opacity: 1;
+}
+
+.text-center {
+  scale: 120%;
+}/*# sourceMappingURL=custom.css.map */
